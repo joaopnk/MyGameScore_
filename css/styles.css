@@ -1,0 +1,41 @@
+/* # Paleta de cores utilizada: https://palettable.io/FF8B42-515E79-FFFEFB-1A1A1A-03031B */
+/* #FF8B42 */
+/* #515E79 */
+/* #FFFEFB */
+/* #1A1A1A */
+/* #03031B */
+
+*{
+    font-family: "Ubuntu-Regular", sans-serif, arial, helvetica;
+}
+
+.color-orange-global{
+ color: #FF8B42;
+}
+.fontColor-primary{
+ color: #1A1A1A;
+ transition: .9s;
+
+}
+.fontColor-secondary{
+ color: #FFFEFB;
+ 
+}
+
+.bg-color-global-primary{
+ background-color: #FF8B42;
+}
+.bg-color-global-secondary{
+ background-color: #FFFEFB;
+}
+
+button.bg-color-global-secondary:hover{
+    background-color: #515E79;
+    color: #FFFEFB;
+    transition: .9s;
+}
+
+#registroList a.fontColor-primary:hover{
+    color: #FFFEFB;
+    transition: .9s;
+}
